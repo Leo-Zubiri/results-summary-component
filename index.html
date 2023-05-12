@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preload" href="css/normalize.css" as="style">
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="preload" href="css/styles.css" as="style">
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+
+
+  <main class="main-container">
+
+    <div class="card">
+      <section class="result">
+        <h2 class="result__title">Your Result</h2>
+        <div class="result__score">
+          <h3>76</h3>
+          <p>of 100</p>
+        </div>
+
+        <div class="result__message">
+          <h3>Great</h3>
+          <p>You scored higher than 65% of the people who have taken these tests</p>
+        </div>
+      </section>
+
+      <section class="summary">
+        <h2 class="summary__title">Summary</h2>
+        <div class="summary__list"> 
+
+          <div class="badge badge--bg-red">
+            <p class="badge__title">
+              <img src="./assets/images/icon-reaction.svg" alt="Reaction Icon">
+              Reaction
+            </p>
+
+            <p class="badge__score">
+              80 <span>/ 100</span>
+            </p>
+          </div>
+
+          <div class="badge badge--bg-yellow">
+            <p class="badge__title">
+              <img src="./assets/images/icon-memory.svg" alt="Memory Icon">
+              Memory
+            </p>
+
+            <p class="badge__score">
+              92 <span>/ 100</span>
+            </p>
+          </div>
+
+          <div class="badge badge--bg-green">
+            <p class="badge__title">
+              <img src="./assets/images/icon-verbal.svg" alt="Verbal Icon">
+              Verbal
+            </p>
+
+            <p class="badge__score">
+              61 <span>/ 100</span>
+            </p>
+          </div>
+
+          <div class="badge badge--bg-violet">
+            <p class="badge__title">
+              <img src="./assets/images/icon-visual.svg" alt="Visual Icon">
+              Visual
+            </p>
+
+            <p class="badge__score">
+              72 <span>/ 100</span>
+            </p>
+          </div>
+
+        </div>
+
+        <button class="btn">Continue</button>
+      </section>
+    </div>
+
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Leo-Zubiri">Leo Zubiri</a>.
+  </div>
+</body>
+</html>
